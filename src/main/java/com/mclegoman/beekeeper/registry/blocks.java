@@ -17,10 +17,6 @@ import static com.mclegoman.beekeeper.main.MOD_ID;
 
 public class blocks {
 
-    public static final Block TEST_BEEHIVE = registerBlock("test_beehive",
-            new BeehiveBlock(FabricBlockSettings.of(Material.WOOD)
-                    .strength(4.0f).requiresTool().nonOpaque()), itemGroup.BEEKEEPER);
-
     private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipKey) {
         registerBlockItem(name, block, group, tooltipKey);
         return Registry.register(Registry.BLOCK, new Identifier(MOD_ID, name), block);
