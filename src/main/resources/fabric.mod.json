@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "beekeeper",
+  "version": "${version}",
+
+  "name": "Beekeeper",
+  "description": "The winner of Lego's Enchantment Vote (2022)!",
+  "authors": [
+    "MCLegoMan"
+  ],
+  "contact": {
+    "homepage": "https://mclegoman.com/",
+    "sources": "https://github.com/MCLegoMan/beekeeper"
+  },
+
+  "license": "MCLM-OSL (2022)",
+  "icon": "assets/beekeeper/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mclegoman.beekeeper.main"
+    ]
+  },
+  "mixins": [
+    "beekeeper.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
