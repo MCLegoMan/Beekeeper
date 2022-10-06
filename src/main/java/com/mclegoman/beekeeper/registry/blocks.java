@@ -1,8 +1,9 @@
 // Copyright (c) Daniel-Tayden Larsen 2022 //
 // License: MCLM-OSL (2022) //
 
-import com.mclegoman.beekeeper.main;
+package com.mclegoman.beekeeper.registry;
 
+import com.mclegoman.beekeeper.main;
 import com.mclegoman.beekeeper.registry.itemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
