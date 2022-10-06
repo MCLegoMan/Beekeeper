@@ -3,6 +3,7 @@
 
 package com.mclegoman.beekeeper;
 
+import com.mclegoman.beekeeper.registry.blocks;
 import com.mclegoman.beekeeper.registry.items;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
@@ -15,7 +16,8 @@ public class main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		items.registerModItems();
+		items.registerItems();
+		blocks.registerBlocks();
 	}
 
 	public static Identifier identifier(String path) {
